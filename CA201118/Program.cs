@@ -29,7 +29,7 @@ namespace CA201118
                 Console.WriteLine(
                     $"{p.Gyumolcs} pálnaka ({p.AlkoholFok}%): " +
                     $"\n\tKészült:   {p.KeszitesEve}" +
-                    $"\n\tKészleten: {p.Mennyiseg / 10.0} liter" +
+                    $"\n\tKészleten: {p.Mennyiseg / 10F} liter" +
                     $"\n\tÁr:        {p.Ar} Ft/dl\n");
             }
         }
